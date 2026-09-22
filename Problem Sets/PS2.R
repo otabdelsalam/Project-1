@@ -276,6 +276,7 @@ data.frame(x = 1:4, y = c("a", "b"))
 # 34. Convert star_wars to a tibble with as_tibble(), 
 # then compare the output of star_wars[, "height"] to star_wars_tbl[, "height"]. 
 # What class is each result? Which behavior do you find less surprising, and why?
+install.packages("tidyverse")
 library(tibble)
 star_wars_tbl <- as_tibble(star_wars)
 star_wars[, "height"]
@@ -294,6 +295,7 @@ study_spot = c("Moffitt", "Doe", "Cory", "MLK", "CITRIS", "Soda"),
 ai = c(1.2, 0.4, 2.1, 1, 0.8, 1.6),
 steps_k = c(8.5, 6.2, 9.1, 7, 5.8, 10.3))
 
+install.packages("dplyr")
 library(dplyr)
 
 # 35. A data frame containing the 2nd and 5th students.
